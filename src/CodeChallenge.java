@@ -1,12 +1,16 @@
 public class CodeChallenge {
 
 	public static void main(String[] args) {
-		System.out.println("2");
-		//I really want a Thirts
 		
-	    //I want us both to have tshirts
+		Test one = new Test(1);
+		Test two = new Test(2);
 		
-		//tshirts are hard to get
+		one.swap(one, two);
+		
+		System.out.println(one.а);
+		System.out.println(two.а);
+		
+		
 
 	}
 
